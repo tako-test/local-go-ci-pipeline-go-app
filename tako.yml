@@ -1,0 +1,9 @@
+version: 0.1.0
+artifacts:
+    default:
+        path: .
+        ecosystem: generic
+workflows:
+    default:
+        steps:
+            - run: echo 'default workflow'
